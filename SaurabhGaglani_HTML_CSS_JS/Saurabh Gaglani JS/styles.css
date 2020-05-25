@@ -1,0 +1,81 @@
+*	{
+	margin: 0;
+	font-family: 'Lakki Reddy', cursive;
+	}
+
+h1 {
+	background-color: rgb(255, 0, 0);
+	color:white;
+	text-shadow: 1px 1px;
+	padding: 1em;
+}
+
+.bi {
+background-image: url(mickeyyy.png); /* https://pngio.com/images/png-652331.html */
+background-repeat: no-repeat;
+padding: 20em;
+background-size: cover;
+}
+
+.bi:hover{
+	background-image: url("diss.jpg");
+	background-repeat: no-repeat;
+	padding: 20em;
+	background-size: cover;
+	transition: 0.5s ease;
+}
+
+ul{
+	position: absolute;
+	top: 20px;
+	right:30px;
+	font-size: 30px;
+	float:right;
+	display:flex;
+	list-style: none;
+	color: white;
+}
+
+.right li:hover{
+cursor: pointer;
+background-color: rgb(126, 114, 114);
+} 
+
+.left{
+	float: left;
+}
+
+.slide{
+	float: right;
+}
+
+.subm{
+	padding:1em;
+	text-align: center;
+}
+
+.menu{
+	display: none;
+}
+
+.menu1:hover .menu{
+	display: block;
+}
+
+main{
+	padding: 2em;
+}
+footer{ 
+	padding: 2em;
+	clear: left;
+	background-color:#3999a1;
+}
+
+.submitimg{
+	float: right;
+}
+
+.submit{
+	float: left;
+}
+

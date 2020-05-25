@@ -1,0 +1,186 @@
+* {
+	font-family: Arial;
+}
+
+*	{
+	margin: 0;
+	}
+	
+h1 {
+	color: green;
+	text-shadow: 1px 1px;
+	float: left;
+}
+span{
+	color: orange;
+	text-shadow: 1px 1px;
+}
+
+header{
+	padding: 1 em;
+	background-color: #33cccc;
+}
+main{
+	padding: 1em;
+}
+footer{ 
+	padding: 1em;
+}
+	
+	header nav{
+		padding-top: 10px;
+		float: right;
+	}
+	
+	header::after{
+		
+		content:'';
+		display: table;
+		clear: both;
+	}
+
+header nav a {
+	text-align: center;
+	display: inline-block;
+	text-decoration: none;
+	color: black;
+	/*background-color: #00FFFF;*/
+	border: 0.5px solid transparent;
+}
+
+	
+
+header nav a:hover{
+	background: black;
+	color: white;
+}
+
+.column{ 
+padding:10px;
+border-style: hidden;
+border-width: 7px;
+float: left;
+width: 30%;
+font: Arial;
+font-size: 20 px;
+
+}
+.column1{
+padding:10px;
+border-style: hidden;
+border-width: 7px;
+float: middle;
+width: 30%;
+font: Arial;
+font-size: 20 px;
+}
+.column2{
+padding:10px;
+border-style: hidden;
+border-width: 7px;
+float: right;
+width: 30%;
+font: Arial;
+font-size: 20 px;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+footer{
+clear: left;
+background-color:#3999a1;
+}
+
+.container{
+	position:relative;
+	width:80%;
+}
+
+.overlay {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: #008CBA;
+}
+
+.text {
+  color: white;
+  font-size: 20px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  text-align: center;
+}
+
+.container:hover .overlay {
+  opacity: 1;
+}
+
+
+
+.cohead{
+	background-image:url(recycling.jpeg); /*https://www.pinterest.co.uk/pin/336784878376058328 */
+	background-size: cover;
+	padding: 10em;
+	color:white;
+	text-align:center;
+}
+.cohead p{
+	color:	#7FFF00;
+}
+
+.rehead{
+	background-image:url(nature.jpg); /*https://www.theclassroom.com/types-of-australian-ecosystems-12082059.html*/
+	background-size: cover;
+	padding: 10em;
+	color:#CF6679;
+	text-align:center;
+}
+.rehead p{
+	color:black;
+}
+
+
+.cimg { 
+padding: 7em;
+ background-image: url(contact.jpeg);  /*https://www.duraroof.in/contact-us/ */
+background-size: cover;
+text-align: center;
+}
+
+.abh{
+	background-image:url(env.jpeg); /*https://www.wwf.org.uk/updates/much-do-strengthening-new-environment-laws*/
+	background-size: cover;
+	padding: 10em;
+	text-align:center;
+}
+.abh p{
+	color: white;
+}
+
+.im { 
+padding: 18em;
+background-image: url(nat.jpeg); /* https://www.xinsurance.com/blog/category/asset-protection */
+background-size: cover;
+color:#ff7b25;
+text-align:center;
+}
+
+.im p{
+	color: #99ceff;
+}
+
+
