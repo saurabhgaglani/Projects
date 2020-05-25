@@ -1,0 +1,7 @@
+Module: SOFT_6018 
+Number of classes: 12
+Average attendance: 10
+low attender(s): 
+non_attender(s):
+best attender(s): Fred Fox 
+attended 12 out of 12 days 
