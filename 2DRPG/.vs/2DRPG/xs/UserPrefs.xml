@@ -1,25 +1,17 @@
-﻿<Properties StartupConfiguration="{AE8F51F6-26A6-153C-9495-FE0570CACAB2}|">
-  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Switch.cs">
+﻿<Properties>
+  <MonoDevelop.Ide.Workbench ActiveDocument="Assets/Scripts/Enemy.cs">
     <Files>
-      <File FileName="Assets/Scripts/Switch.cs" Line="29" Column="4" />
+      <File FileName="Assets/Scripts/HurtEnemy.cs" Line="4" Column="1" />
+      <File FileName="Assets/Scripts/Projectile.cs" Line="36" Column="1" />
+      <File FileName="Assets/Scripts/PlayerHealthManager.cs" Line="22" Column="55" />
+      <File FileName="Assets/Scripts/PlayerMovement.cs" Line="11" Column="11" />
+      <File FileName="Assets/Scripts/GameManager.cs" Line="10" Column="27" />
+      <File FileName="Assets/Scripts/GameOverScript.cs" Line="15" Column="4" />
+      <File FileName="Assets/Scripts/Enemy.cs" Line="9" Column="35" />
     </Files>
-    <Pads>
-      <Pad Id="ProjectPad">
-        <State name="__root__">
-          <Node name="2DRPG" expanded="True">
-            <Node name="Assets" expanded="True">
-              <Node name="Scripts" expanded="True">
-                <Node name="Switch.cs" selected="True" />
-              </Node>
-            </Node>
-          </Node>
-        </State>
-      </Pad>
-    </Pads>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.PinnedWatches />
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
-  <MonoDevelop.Ide.ItemProperties.Assembly-CSharp PreferredExecutionTarget="403514a0-9232-4c10-a4a0-eacc5c8e5426" />
   <MonoDevelop.Ide.DebuggingService.Breakpoints>
     <BreakpointStore />
   </MonoDevelop.Ide.DebuggingService.Breakpoints>

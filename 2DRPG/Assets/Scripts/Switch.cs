@@ -23,7 +23,8 @@ public class Switch : MonoBehaviour
     {
         if (other.gameObject.name == "Player")
             Application.LoadLevel(LevelName);
-            
+
+               
         
         
     }
